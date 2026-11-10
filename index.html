@@ -1,6 +1,27 @@
+
+<!DOCTYPE html>
 <html>
+<head>
+    <title>Event Registration</title>
+</head>
 <body>
-<h1>Welcome to GitHub</h1>
-<p>This is Vishal</p>
+    <h2>Event Registration Form</h2>
+
+    <form onsubmit="alert('Successfully Registered!')">
+        Name: <input type="text" required><br><br>
+
+        Email: <input type="email" required><br><br>
+
+        Phone: <input type="tel" required><br><br>
+
+        Event:
+        <select>
+            <option>Technical Event</option>
+            <option>Sports Event</option>
+            <option>Cultural Event</option>
+        </select><br><br>
+
+        <input type="submit" value="Register">
+    </form>
 </body>
 </html>
